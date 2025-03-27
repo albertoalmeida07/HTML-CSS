@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TechConnect</title>
+</head>
+<body>
+    <header>
+        <img src="https://cdn-icons-png.flaticon.com/512/4257/4257483.png" alt="">
+        <h1>TechFuture Summit</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#palestrantes">Palestrantes</a></li>
+            <li><a href="#inscricao">Inscreva-se</a></li>
+        </ul>
+    </nav>
+
+    <section class="sectionContainer" id="sobre">
+        <h2>Convite para o TechConnect 2025: O Futuro da Tecnologia em Debate!</h2>
+        <p>TechConnect 2025 está chegando! Um evento imperdível onde desenvolvedores e designers especialistas se reúnem para discutir as principais tendências tecnológicas que estão moldando o futuro. Da inteligência artificial ao design de interfaces inovadoras, vamos explorar as novas ferramentas, metodologias e inovações que estão transformando a indústria.</p>
+        <hr>
+        <ul>
+            <li>
+                <h3>Data: </h3>
+                <p>Dia 31 de março de 2025</p>
+                
+            </li>
+            <li>
+                <h3>Local: </h3>
+                <p>Auditório da unijorge</p>
+            </li>
+            
+        </ul>
+    </section>
+
+    <section class="sectionContainer" id="palestrantes">
+        <h2>Conheça nossos palestrantes</h2>
+
+        <div class="card-palestrante" id="lucas">
+            <img src="imgs/palentrante3.png" alt="">
+            
+            <div class="card-palestrante-text">
+                <h3>Lucas Vasconcelos</h3>
+                <p>Desenvolvedor Full Stack com mais de 12 anos de experiência, Lucas é referência em arquitetura de software e soluções escaláveis. Trabalhou em projetos para grandes empresas globais e atualmente é CTO de uma startup inovadora de IA. Em sua palestra, ele abordará as tecnologias emergentes para back-end e como escalar aplicações de alto desempenho.</p>
+            </div>
+        </div>
+        <div class="card-palestranteinverso" id="mariana">
+            <div class="card-palestrante-text">
+                <h3>Mariana Costa</h3>
+                <p>Especialista em UX/UI e design de produtos digitais, Mariana já criou experiências imersivas para grandes marcas. Seu trabalho foca na interseção entre design e acessibilidade, garantindo que a tecnologia seja intuitiva para todos. Em seu painel, ela discutirá tendências no design de interfaces e como a IA está transformando a experiência do usuário.</p>
+            </div>
+            <img src="imgs/palestrante2.png" alt="">
+        </div>
+        <div class="card-palestrante" id="lucas">
+            <img src="imgs/palestrante1.png" alt="">
+            
+            <div class="card-palestrante-text">
+                <h3>Rafael Torres</h3>
+                <p>O Mestre da Inteligência Artificial
+                    Cientista de dados e pesquisador na área de aprendizado de máquina, Rafael é referência quando o assunto é IA aplicada ao desenvolvimento de software. Com uma carreira marcada por projetos inovadores, ele trará uma visão profunda sobre como a IA está moldando o futuro do desenvolvimento e design.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="sectionContainer" id="inscricao">
+        <h2>Se interessou? Inscreva-se e participe TechConnect 2025</h2>
+
+        <form>
+            <label for="email">Digite seu email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="nome">Digite seu nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="radio">Tipo de Ingresso</label>
+            
+            <div class="radio-group">
+                <label for="radio">Presencial</label>
+                <input type="radio" name="ingresso" required>
+                <label for="radio">online</label>
+                <input type="radio" name="ingresso" required>
+            </div>
+
+            <label for="checkbox">Aceite os termos de serviço:
+                <input type="checkbox" required>
+            </label>
+
+            <button type="submit">Inscreva-se</button>
+
+        </form>
+
+    </section>
+</body>
+
+<footer>
+    &copy; 2025 TechConnect. Todos os direitos reservados.
+</footer>
+</html>
